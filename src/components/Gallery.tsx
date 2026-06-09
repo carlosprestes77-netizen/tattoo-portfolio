@@ -78,7 +78,7 @@ export default function Gallery() {
                 {/* Image Wrap */}
                 <div className="relative aspect-square w-full overflow-hidden bg-ink-black mb-4 border border-gold-accent/5">
                   <Image 
-                    src={item.imageSrc} 
+                    src={item.imageSrc.startsWith('/') ? `/tattoo-portfolio${item.imageSrc}` : item.imageSrc} 
                     alt={item.title}
                     fill
                     className="object-contain transition-transform duration-700 group-hover:scale-105"
@@ -138,7 +138,7 @@ export default function Gallery() {
                 {/* Image Section */}
                 <div className="relative aspect-square w-full bg-ink-black border-r border-gold-accent/5 flex items-center justify-center p-6">
                   <Image 
-                    src={selectedTattoo.imageSrc} 
+                    src={selectedTattoo.imageSrc.startsWith('/') ? `/tattoo-portfolio${selectedTattoo.imageSrc}` : selectedTattoo.imageSrc} 
                     alt={selectedTattoo.title}
                     fill
                     className="object-contain"

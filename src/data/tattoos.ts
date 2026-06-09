@@ -51,17 +51,17 @@ export const tattooDesigns: TattooDesign[] = [
   {
     id: 'design-6',
     title: 'Leoa & Filhote com Floral',
-    category: 'disponivel',
+    category: 'blackwork',
     imageSrc: '/images/tattoo6.jpg',
-    description: 'Projeto Autoral Disponível. Símbolo de maternidade, força e proteção familiar.',
+    description: 'Símbolo de maternidade, força e proteção familiar.',
     size: '16x11 cm'
   },
   {
     id: 'design-7',
     title: 'Guerreira da Coroa de Espinhos',
-    category: 'disponivel',
+    category: 'blackwork',
     imageSrc: '/images/tattoo7.jpg',
-    description: 'Projeto Autoral Disponível. Elementos medievais, coroa de espinhos e adaga clássica.',
+    description: 'Elementos medievais, coroa de espinhos e adaga clássica.',
     size: '20x12 cm'
   },
   {
@@ -75,9 +75,9 @@ export const tattooDesigns: TattooDesign[] = [
   {
     id: 'design-9',
     title: 'Mulher com Headpiece de Tigre',
-    category: 'disponivel',
+    category: 'blackwork',
     imageSrc: '/images/tattoo9.jpg',
-    description: 'Projeto Autoral Disponível. Mistura de realismo retrato com elementos da natureza selvagem.',
+    description: 'Mistura de realismo retrato com elementos da natureza selvagem.',
     size: '22x15 cm'
   },
   {
