@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #0B0B0B;
-  --foreground: #F5F5F7;
+  --background: #181614;
+  --foreground: #F5F2EB;
 }
 
 body {
@@ -22,41 +22,95 @@ html {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0B0B0B;
+  background: #181614;
 }
 ::-webkit-scrollbar-thumb {
   background: #D4AF37;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #C5A880;
+  background: #EAD598;
 }
 
 /* Premium glassmorphism effects */
 .glass-panel {
-  background: rgba(20, 20, 20, 0.7);
+  background: rgba(24, 22, 20, 0.75);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(212, 175, 55, 0.1);
 }
 
 .glass-card {
-  background: rgba(28, 28, 30, 0.4);
+  background: rgba(74, 69, 63, 0.25);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(245, 242, 235, 0.05);
 }
 
 .glass-card:hover {
   border: 1px solid rgba(212, 175, 55, 0.2);
-  background: rgba(28, 28, 30, 0.6);
+  background: rgba(74, 69, 63, 0.4);
+}
+
+.glass-paper {
+  background: rgba(245, 242, 235, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(245, 242, 235, 0.1);
+}
+
+/* Custom utility components */
+.btn-primary {
+  background-color: #D4AF37;
+  color: #181614;
+  font-family: var(--font-raleway), sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary:hover {
+  background-color: #EAD598;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.25);
+}
+
+.btn-outline {
+  border: 1px solid rgba(245, 242, 235, 0.15);
+  color: #FAF9F6;
+  font-family: var(--font-raleway), sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+}
+
+.btn-outline:hover {
+  border-color: #D4AF37;
+  color: #D4AF37;
+  background-color: rgba(212, 175, 55, 0.05);
+}
+
+.label-section {
+  font-family: var(--font-raleway), sans-serif;
+  font-size: 0.75rem;
+  color: #D4AF37;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.15), transparent);
+  width: 100%;
 }
 
 /* Text glow effects */
 .glow-gold {
-  text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
 }
 
 .glow-blood {
-  text-shadow: 0 0 12px rgba(139, 0, 0, 0.5);
+  text-shadow: 0 0 12px rgba(139, 0, 0, 0.4);
 }
 
 @layer utilities {

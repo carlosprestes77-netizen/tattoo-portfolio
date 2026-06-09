@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { cormorant, inter } from "./fonts";
+import { playfair, raleway } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,8 +22,8 @@ export default function RootLayout({
   }>) {
   const gaId = "G-GA4MEASUREMENTID"; // Placeholder a ser substituído pelo usuário
   return (
-    <html lang="pt-BR" className={`${cormorant.variable} ${inter.variable}`}>
-      <body className="font-sans antialiased text-text-white bg-ink-black select-none">
+    <html lang="pt-BR" className={`${playfair.variable} ${raleway.variable}`}>
+      <body className="font-sans antialiased text-paper-100 bg-ink-warm select-none">
         {/* Google Analytics 4 Integration */}
         {gaId && (
           <>

@@ -1,14 +1,14 @@
-import { Cormorant_Garamond, Inter } from 'next/font/google';
+import { Playfair_Display, Raleway } from 'next/font/google';
 
-export const cormorant = Cormorant_Garamond({
+export const playfair = Playfair_Display({
   subsets: ['latin'],
-  variable: '--font-cormorant',
-  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-playfair',
+  weight: ['400', '500', '600', '700', '800', '900'],
   style: ['normal', 'italic'],
 });
 
-export const inter = Inter({
+export const raleway = Raleway({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-raleway',
   weight: ['300', '400', '500', '600', '700'],
 });
