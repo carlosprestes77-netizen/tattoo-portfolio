@@ -4,12 +4,12 @@ import { playfair, raleway } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Thiago Kael | Tatuagem Autoral & Blackwork Premium",
-  description: "Estúdio e portfólio oficial de Thiago Kael, tatuador autoral brasileiro especializado em surrealismo sombrio, geometria sagrada e fine line de alto padrão em São Paulo.",
-  keywords: ["tattoo autoral", "blackwork", "fine line", "tatuador sao paulo", "tatuagem de luxo", "thiago kael"],
+  title: "DW Tattooer | Tatuagem Autoral & Realismo Premium",
+  description: "Estúdio e portfólio oficial de DW, tatuador autoral brasileiro especializado em realismo, florais, geometria sagrada e mini tatuagens de alto padrão.",
+  keywords: ["tattoo autoral", "realismo", "fine line", "tatuador", "tatuagem de luxo", "dw tattooer"],
   openGraph: {
-    title: "Thiago Kael | Tatuagem Autoral & Blackwork Premium",
-    description: "Estúdio e portfólio oficial de Thiago Kael, tatuador autoral brasileiro especializado em surrealismo sombrio, geometria sagrada e fine line de alto padrão.",
+    title: "DW Tattooer | Tatuagem Autoral & Realismo Premium",
+    description: "Estúdio e portfólio oficial de DW, tatuador autoral brasileiro especializado em realismo, florais, geometria sagrada e mini tatuagens.",
     type: "website",
     locale: "pt_BR",
   },

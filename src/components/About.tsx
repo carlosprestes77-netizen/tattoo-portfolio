@@ -61,7 +61,7 @@ export default function About() {
               &ldquo;Não vejo a pele apenas como uma tela estática, mas como uma topografia em movimento. Uma linha não deve apenas preencher um espaço; ela deve acompanhar a anatomia, o ritmo da respiração e a fluidez orgânica do corpo.&rdquo;
             </p>
             <p className="text-gold-accent font-sans text-xs tracking-[0.25em] uppercase font-bold pt-4">
-              — Thiago Kael, Fundador do Conceito
+              — DW, Fundador do Conceito
             </p>
           </motion.div>
         </div>
@@ -98,7 +98,7 @@ export default function About() {
             </div>
             <h3 className="font-serif text-xl text-text-white font-semibold">Identidade Única</h3>
             <p className="text-sm text-text-muted font-sans leading-relaxed">
-              Trabalho estritamente autoral. Thiago Kael não realiza cópias de trabalhos alheios ou repetições de artes já executadas. Cada traço é exclusivo.
+              Trabalho estritamente autoral. DW não realiza cópias de trabalhos alheios ou repetições de artes já executadas. Cada traço é exclusivo.
             </p>
           </motion.div>
 

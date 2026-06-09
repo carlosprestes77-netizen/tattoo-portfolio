@@ -23,8 +23,8 @@ export default function Gallery() {
     : tattooDesigns.filter(item => item.category === activeFilter);
 
   const handleWhatsAppInquiry = (tattoo: TattooDesign) => {
-    const text = encodeURIComponent(`Olá Thiago Kael! Gostaria de fazer um orçamento para a arte "${tattoo.title}" (${tattoo.size}).`);
-    window.open(`https://wa.me/5511999998888?text=${text}`, '_blank');
+    const text = encodeURIComponent(`Olá! Gostaria de fazer um orçamento para a arte "${tattoo.title}" (${tattoo.size}).`);
+    window.open(`https://wa.me/5544991373995?text=${text}`, '_blank');
   };
 
   return (

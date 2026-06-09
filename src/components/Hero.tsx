@@ -32,7 +32,7 @@ export default function Hero() {
         
         {/* Decorative large golden monogram behind hero */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-[40vw] font-bold text-gold-accent/[0.02] tracking-tighter select-none">
-          TK
+          DW
         </div>
 
         {/* Ambient red & gold lights */}
@@ -68,15 +68,15 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="block"
           >
-            Thiago
+            DW
           </motion.span>
           <motion.span
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="block text-transparent bg-clip-text bg-gradient-to-r from-gold-accent via-gold-muted to-gold-light glow-gold"
+            className="block text-transparent bg-clip-text bg-gradient-to-r from-gold via-gold-light to-gold-pale glow-gold"
           >
-            Kael
+            Tattooer
           </motion.span>
         </h1>
 

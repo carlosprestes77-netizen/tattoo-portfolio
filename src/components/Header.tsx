@@ -40,10 +40,10 @@ export default function Header() {
           {/* Logo */}
           <a href="#" className="group flex flex-col">
             <span className="font-serif text-2xl md:text-3xl font-bold tracking-[0.2em] text-text-white group-hover:text-gold-accent transition-colors duration-300">
-              KAEL
+              DW
             </span>
             <span className="text-[8px] uppercase tracking-[0.5em] text-gold-accent -mt-1 pl-[2px] font-sans">
-              Tattoo Art
+              Tattooer
             </span>
           </a>
 
@@ -64,7 +64,7 @@ export default function Header() {
           {/* Social and CTA */}
           <div className="hidden md:flex items-center space-x-6">
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/dw.tattooer?igsh=YTg3bmt1bW4wOW40" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-text-muted hover:text-gold-accent transition-colors duration-300"
@@ -115,7 +115,7 @@ export default function Header() {
               
               <div className="flex space-x-6">
                 <a 
-                  href="https://instagram.com" 
+                  href="https://www.instagram.com/dw.tattooer?igsh=YTg3bmt1bW4wOW40" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-text-muted hover:text-gold-accent"
@@ -123,7 +123,7 @@ export default function Header() {
                   <Instagram size={24} />
                 </a>
                 <a 
-                  href="mailto:contato@thiagokael.com"
+                  href="mailto:contato@dwtattooer.com"
                   className="text-text-muted hover:text-gold-accent"
                 >
                   <Mail size={24} />

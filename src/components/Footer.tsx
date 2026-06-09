@@ -14,10 +14,10 @@ export default function Footer() {
         <div className="flex flex-col space-y-4">
           <div className="flex flex-col">
             <span className="font-serif text-3xl font-bold tracking-[0.2em] text-text-white">
-              KAEL
+              DW
             </span>
             <span className="text-[10px] uppercase tracking-[0.5em] text-gold-accent -mt-1 pl-[2px]">
-              Tattoo Art
+              Tattooer
             </span>
           </div>
           <p className="text-text-muted text-sm leading-relaxed max-w-xs font-sans">
@@ -67,11 +67,11 @@ export default function Footer() {
             </li>
             <li className="flex items-center space-x-3 text-text-muted">
               <Phone size={18} className="text-gold-accent shrink-0" />
-              <span>+55 (11) 99999-8888</span>
+              <span>+55 (44) 99137-3995</span>
             </li>
             <li className="flex items-center space-x-3 text-text-muted">
               <Mail size={18} className="text-gold-accent shrink-0" />
-              <span>contato@thiagokael.com</span>
+              <span>contato@dwtattooer.com</span>
             </li>
           </ul>
         </div>
@@ -91,7 +91,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gold-accent/5 flex flex-col md:flex-row justify-between items-center text-xs text-text-muted font-sans gap-4">
-        <p>&copy; {new Date().getFullYear()} Thiago Kael. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} DW Tattooer. Todos os direitos reservados.</p>
         <p className="flex items-center space-x-1">
           <span>Inspirado em estúdios de alto padrão do Brasil.</span>
         </p>

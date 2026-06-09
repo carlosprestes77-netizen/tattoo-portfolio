@@ -38,7 +38,7 @@ export default function BriefingForm() {
       `*Conceito do Projeto:*\n${formData.conceito}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/5511999998888?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/5544991373995?text=${encodedMessage}`;
 
     // Redirect to WhatsApp
     setTimeout(() => {
