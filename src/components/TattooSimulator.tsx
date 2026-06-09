@@ -62,7 +62,8 @@ export default function TattooSimulator() {
   // Load Tattoo Image
   useEffect(() => {
     const img = new window.Image();
-    img.src = activeTattooSrc;
+    const isRelative = activeTattooSrc.startsWith('/');
+    img.src = isRelative ? `/tattoo-portfolio${activeTattooSrc}` : activeTattooSrc;
     img.onload = () => {
       setTattooImage(img);
       // Reset position to center of stage
@@ -231,7 +232,7 @@ export default function TattooSimulator() {
                     }`}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={design.imageSrc} alt={design.title} className="w-full h-full object-contain" />
+                    <img src={design.imageSrc.startsWith('/') ? `/tattoo-portfolio${design.imageSrc}` : design.imageSrc} alt={design.title} className="w-full h-full object-contain" />
                   </button>
                 ))}
               </div>
